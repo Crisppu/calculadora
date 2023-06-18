@@ -1,0 +1,19 @@
+.contenedor__principal {
+    height: 100vh;
+    color: #ffffff;
+}
+.contenedor__principal__operaciones{
+height: 450px;
+
+}
+.botonesCalculadora{
+width: 60px;
+height: 60px;
+margin-left: 0.2rem;
+}
+
+.botonCero{
+width: 120px;
+height: 60px;
+
+}

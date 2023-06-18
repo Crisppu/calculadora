@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/contenedor__principal.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row contenedor__principal justify-content-center align-items-center">
+            <div class="col-sm-4">
+                <div class="row" style="background-color: brown;">
+                    <div class="col">CASIO</div>
+                </div>
+                <div class="row contenedor__principal__operaciones justify-content-center align-items-center" style="background-color: black;">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="" value="0" disabled data-input>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="btn-group-sm p-2 d-flex justify-content-center" role="group" aria-label="Basic example">
+                                <button type="button " class="btn  btn-light rounded-circle botonesCalculadora " data-c>C</button>
+                                <button type="button " class="btn  btn-light rounded-circle botonesCalculadora " data-masMenos>+/-</button>
+                                <button type="button " class="btn  btn-light rounded-circle botonesCalculadora "data-porcentaje>%</button>
+                                <button type="button " class="btn  btn-warning  rounded-circle botonesCalculadora"data-division>/</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="btn-group-sm p-1 d-flex justify-content-center" role="group" aria-label="Basic example">
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-7>7</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora"data-8>8</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-9>9</button>
+                                <button type="button " class="btn  btn-warning  rounded-circle botonesCalculadora" data-multiplicacion>X</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="btn-group-sm p-1 d-flex justify-content-center" role="group" aria-label="Basic example">
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-4>4</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-5>5</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-6>6</button>
+                                <button type="button " class="btn  btn-warning  rounded-circle botonesCalculadora" data-resta>-</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="btn-group-sm p-1 d-flex justify-content-center" role="group" aria-label="Basic example">
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-1>1</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-2>2</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora" data-3>3</button>
+                                <button type="button " class="btn  btn-warning  rounded-circle botonesCalculadora" data-suma>+</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="btn-group-sm p-1 d-flex justify-content-center" role="group" aria-label="Basic example">
+                                <button type="button " class="btn  btn-secondary  botonCero" data-0>0</button>
+                                <button type="button " class="btn  btn-secondary rounded-circle botonesCalculadora"data-punto>.</button>
+                                <button type="button " class="btn  btn-warning  rounded-circle botonesCalculadora" data-igual>=</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" style="background-color: brown;">
+                    <div class="col text-center"><p>Desarrollado por Cristobal</p></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/calculadora.js"></script>
+</body>
+
+</html>
